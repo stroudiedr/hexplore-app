@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Hexplore</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 20px;
+      color: #222;
+      line-height: 1.7;
+    }
+    h1 { font-size: 2em; margin-bottom: 0.2em; }
+    h2 { font-size: 1.2em; margin-top: 2em; color: #111; }
+    p, li { color: #444; }
+    ul { padding-left: 1.4em; }
+    a { color: #007aff; }
+    .updated { color: #888; font-size: 0.9em; margin-bottom: 2em; display: block; }
+    footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #eee;
+             color: #888; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <span class="updated">Last updated: June 2026</span>
+
+  <p>
+    Hexplore is built on a simple principle: your data belongs to you.
+    This policy explains what information Hexplore collects, how it is used,
+    and what we never do with it.
+  </p>
+
+  <h2>What Hexplore collects</h2>
+  <p>Hexplore stores the following data on your device:</p>
+  <ul>
+    <li><strong>Explored hex tile IDs</strong> — when you move through an area,
+    your GPS position is converted into an anonymised hexagonal grid cell identifier
+    (H3 cell ID). This cell ID is stored, not your raw GPS coordinates.</li>
+    <li><strong>Activity metadata</strong> — date, duration, distance, transport
+    mode, and source (live tracking, Strava, or GPX file) for each activity.</li>
+    <li><strong>App preferences</strong> — settings such as your chosen transport
+    mode filter, display preferences, and onboarding status.</li>
+  </ul>
+
+  <h2>What Hexplore never collects</h2>
+  <ul>
+    <li>Your raw GPS coordinates are never stored. Location data is converted
+    to H3 cell IDs in memory and immediately discarded.</li>
+    <li>No personal information — no name, email address, or account is required
+    to use Hexplore.</li>
+    <li>No analytics or usage tracking of any kind.</li>
+    <li>No advertising identifiers.</li>
+    <li>No crash reporting or telemetry data is sent to any server.</li>
+  </ul>
+
+  <h2>Where your data is stored</h2>
+  <p>
+    All data collected by Hexplore is stored exclusively on your device.
+    It is never uploaded to any server, never shared with third parties,
+    and never leaves your device except in the two cases described below.
+  </p>
+
+  <h2>Third-party services</h2>
+
+  <p>Hexplore integrates with two third-party services:</p>
+
+  <p><strong>Strava</strong><br>
+  If you choose to connect your Strava account, Hexplore uses the Strava API
+  to read your activity history. Hexplore requests read-only access
+  (<code>activity:read_all</code>) and never writes to or modifies your
+  Strava account. Your Strava credentials are stored securely in the iOS
+  Keychain on your device and are never transmitted to any Hexplore server.
+  Strava's own privacy policy applies to data held by Strava:
+  <a href="https://www.strava.com/legal/privacy">strava.com/legal/privacy</a></p>
+
+  <p><strong>Mapbox</strong><br>
+  Hexplore uses the Mapbox Maps SDK to display map tiles. When you view the
+  map, your device makes standard map tile requests to Mapbox servers, which
+  may include your approximate viewport location. This is inherent to any
+  map-based application. Mapbox's privacy policy applies:
+  <a href="https://www.mapbox.com/legal/privacy">mapbox.com/legal/privacy</a></p>
+
+  <h2>Location access</h2>
+  <p>
+    Hexplore requests access to your device's location to support live activity
+    tracking. We recommend granting "Always Allow" so that tracking continues
+    when your screen is locked during a run or walk. Location data is used
+    only to convert your position into H3 cell IDs for map reveal — it is
+    never stored as raw coordinates and never transmitted off your device.
+  </p>
+  <p>
+    You can withdraw location permission at any time in iOS Settings.
+    Strava import and GPX import remain fully functional without location access.
+  </p>
+
+  <h2>In-app purchases</h2>
+  <p>
+    Hexplore Pro is available as a one-time purchase via Apple's App Store.
+    All payment processing is handled entirely by Apple. Hexplore does not
+    collect or store any payment information.
+  </p>
+
+  <h2>Children's privacy</h2>
+  <p>
+    Hexplore is not directed at children under the age of 13 and does not
+    knowingly collect any information from children.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If this privacy policy changes, the updated version will be posted at
+    this URL with a revised date. Continued use of the app after changes
+    constitutes acceptance of the updated policy.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    If you have any questions about this privacy policy or how Hexplore
+    handles your data, please contact:
+    <a href="mailto:privacy@hexplore.app">privacy@hexplore.app</a>
+  </p>
+
+  <footer>
+    &copy; 2026 Hexplore. All rights reserved.
+  </footer>
+
+</body>
+</html>
