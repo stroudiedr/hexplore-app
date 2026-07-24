@@ -26,7 +26,7 @@
 <body>
 
   <h1>Privacy Policy</h1>
-  <span class="updated">Last updated: June 2026</span>
+  <span class="updated">Last updated: July 2026</span>
 
   <p>
     Hexplore is built on a simple principle: your data belongs to you.
@@ -61,12 +61,13 @@
   <p>
     All data collected by Hexplore is stored exclusively on your device.
     It is never uploaded to any server, never shared with third parties,
-    and never leaves your device except in the two cases described below.
+    and never leaves your device except as described in the third-party
+    services section below.
   </p>
 
   <h2>Third-party services</h2>
 
-  <p>Hexplore integrates with two third-party services:</p>
+  <p>Hexplore integrates with one optional third-party service:</p>
 
   <p><strong>Strava</strong><br>
   If you choose to connect your Strava account, Hexplore uses the Strava API
@@ -77,12 +78,15 @@
   Strava's own privacy policy applies to data held by Strava:
   <a href="https://www.strava.com/legal/privacy">strava.com/legal/privacy</a></p>
 
-  <p><strong>Mapbox</strong><br>
-  Hexplore uses the Mapbox Maps SDK to display map tiles. When you view the
-  map, your device makes standard map tile requests to Mapbox servers, which
-  may include your approximate viewport location. This is inherent to any
-  map-based application. Mapbox's privacy policy applies:
-  <a href="https://www.mapbox.com/legal/privacy">mapbox.com/legal/privacy</a></p>
+  <p><strong>Map tiles (OpenStreetMap)</strong><br>
+  Hexplore displays maps using MapLibre Native, an open-source rendering
+  library, with map tile data sourced from OpenStreetMap contributors.
+  When you view the map, your device makes standard tile requests to retrieve
+  map data. These requests include your approximate viewport location, which
+  is inherent to any map-based application. No account, API key, or
+  commercial SDK is involved in this process. OpenStreetMap's privacy policy
+  applies to tile requests:
+  <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">osmfoundation.org/wiki/Privacy_Policy</a></p>
 
   <h2>Location access</h2>
   <p>
